@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6dxb0tofDWyPSKBcjhUc1PiatEXDwNgubDsMhadSZk6V2iJMn4ABCHhRfYVIVTv7oTT/0FE9bcI1189RHyJ6kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\reddust9\\cobweb\\mods\\NoLavaRewrite\\NoLavaRewrite\\NoLavaRewrite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reddust9\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\reddust9\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\reddust9\\.nuget\\packages\\unityengine.modules\\5.6.0\\unityengine.modules.5.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>NoLava</AssemblyName>
+        <Description>My first plugin</Description>
+        <Version>1.0.0</Version>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>NoLava</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="UnityEngine.Modules" Version="5.6.0" IncludeAssets="compile" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+        <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\References\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Core">
+        <HintPath>..\References\BepInEx.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx.Unity">
+        <HintPath>..\References\BepInEx.Unity.dll</HintPath>
+      </Reference>
+      <Reference Include="MyScriptAssembly">
+        <HintPath>..\References\MyScriptAssembly.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\References\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\References\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
